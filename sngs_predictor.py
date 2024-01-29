@@ -76,8 +76,8 @@ def share_data_df(symbol, start_date, end_date):
     print(df.head())
     return df
 
-symbol = 'POLY'  
-start_date = '2016-01-01'
+symbol = 'POLY'  #<-- add any MOEX share symbol
+start_date = '2016-01-01' #<-- necessary dates
 end_date = '2024-01-30'
 
 df=share_data_df(symbol, start_date, end_date)
